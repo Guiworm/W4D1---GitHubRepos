@@ -13,6 +13,7 @@
 		A0EE8B161DE35F6C000B8C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EE8B141DE35F6C000B8C5B /* Main.storyboard */; };
 		A0EE8B181DE35F6C000B8C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EE8B171DE35F6C000B8C5B /* Assets.xcassets */; };
 		A0EE8B1B1DE35F6C000B8C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EE8B191DE35F6C000B8C5B /* LaunchScreen.storyboard */; };
+		A0EE8B2D1DE39453000B8C5B /* GitRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EE8B2C1DE39453000B8C5B /* GitRepo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A0EE8B171DE35F6C000B8C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0EE8B1A1DE35F6C000B8C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0EE8B1C1DE35F6C000B8C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EE8B2B1DE39453000B8C5B /* GitRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitRepo.h; sourceTree = "<group>"; };
+		A0EE8B2C1DE39453000B8C5B /* GitRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitRepo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				A0EE8B0F1DE35F6C000B8C5B /* AppDelegate.m */,
 				A0EE8B111DE35F6C000B8C5B /* ViewController.h */,
 				A0EE8B121DE35F6C000B8C5B /* ViewController.m */,
+				A0EE8B2B1DE39453000B8C5B /* GitRepo.h */,
+				A0EE8B2C1DE39453000B8C5B /* GitRepo.m */,
 				A0EE8B141DE35F6C000B8C5B /* Main.storyboard */,
 				A0EE8B171DE35F6C000B8C5B /* Assets.xcassets */,
 				A0EE8B191DE35F6C000B8C5B /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				A0EE8B131DE35F6C000B8C5B /* ViewController.m in Sources */,
 				A0EE8B101DE35F6C000B8C5B /* AppDelegate.m in Sources */,
+				A0EE8B2D1DE39453000B8C5B /* GitRepo.m in Sources */,
 				A0EE8B0D1DE35F6C000B8C5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +313,7 @@
 				A0EE8B211DE35F6C000B8C5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
